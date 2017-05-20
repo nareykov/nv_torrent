@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="gridPane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="300.0" minWidth="600.0" prefHeight="422.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <children>
+              <TableView fx:id="table" editable="false" onMouseClicked="#rowSelected" prefHeight="283.0" prefWidth="683.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <columns>
+                      <TableColumn fx:id="columnName" prefWidth="184.0" text="Name" />
+                      <TableColumn fx:id="columnSize" minWidth="9.0" prefWidth="63.0" text="Size" />
+                      <TableColumn fx:id="columnProgress" prefWidth="141.0" text="Progress" />
+                      <TableColumn fx:id="columnLeft" minWidth="0.0" prefWidth="59.0" text="Left" />
+                      <TableColumn fx:id="columnDownload" minWidth="0.0" text="Download" />
+                      <TableColumn fx:id="columnUpload" minWidth="0.0" text="Upload" />
+                  </columns>
+              </TableView>
+         </children>
+      </AnchorPane>
+      <TabPane prefHeight="115.0" prefWidth="683.0" tabClosingPolicy="UNAVAILABLE" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+        <tabs>
+          <Tab text="Information">
+               <content>
+                  <GridPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="79.0" prefWidth="462.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="166.0" minWidth="0.0" prefWidth="87.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="342.0" minWidth="10.0" prefWidth="80.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="344.0" minWidth="10.0" prefWidth="85.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="430.0" minWidth="10.0" prefWidth="430.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Passed:" GridPane.columnIndex="2" />
+                        <Label fx:id="labelPassed" text=" " GridPane.columnIndex="3" />
+                        <Label text="Downloaded:" GridPane.rowIndex="1" />
+                        <Label fx:id="labelDowloaded" text=" " GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label text="Left:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Label fx:id="labelLeft" text=" " GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <Label text="Directory:" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Label fx:id="labelDirectory" text=" " GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <Label text="Download:" GridPane.rowIndex="2" />
+                        <Label fx:id="labelDowload" text=" " GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="Name:" />
+                        <Label fx:id="labelName" GridPane.columnIndex="1" />
+                     </children>
+                  </GridPane>
+               </content>
+            </Tab>
+          <Tab text="Peers">
+               <content>
+                  <TableView fx:id="infoTable" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="columnPeerIP" prefWidth="336.0" text="IP" />
+                      <TableColumn fx:id="columnPeerDownload" minWidth="0.0" prefWidth="108.0" text="Download" />
+                        <TableColumn fx:id="columnPeerUpload" prefWidth="98.0" text="Upload" />
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button fx:id="addButton" mnemonicParsing="false" onAction="#openTorrent" text="addButton" />
+            <Button fx:id="closeButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#close" text="closeButton" />
+        </items>
+      </ToolBar>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+    </columnConstraints>
+    <padding>
+        <Insets />
+    </padding>
+    <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+</GridPane>
