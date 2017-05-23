@@ -21,6 +21,7 @@ public class Main extends Application {
 
         primaryStage.setTitle("nv_torrent");
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
         primaryStage.getIcons().add(new Image("NFC N-26.png"));
         primaryStage.show();
     }
