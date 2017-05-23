@@ -6,12 +6,9 @@ import com.turn.ttorrent.client.peer.SharingPeer;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.stage.DirectoryChooser;
@@ -52,13 +49,6 @@ public class Controller {
     public TableView infoTable;
 
     @FXML
-    Button addButton;
-    @FXML
-    Button closeButton;
-    @FXML
-    Button deleteButton;
-
-    @FXML
     TableColumn<TorrentRow, String> columnName;
     @FXML
     TableColumn<TorrentRow, String> columnSize;
@@ -91,10 +81,6 @@ public class Controller {
 
         table.setItems(listTorrents);
         infoTable.setItems(listPeers);
-
-        addButton.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("Плюс Filled-50.png"))));
-        deleteButton.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("Отмена Filled-50.png"))));
-        closeButton.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("Выключение системы Filled-50.png"))));
     }
 
     @FXML private void rowSelected(MouseEvent e) {
@@ -102,10 +88,11 @@ public class Controller {
         if (selectedIndex >= 0) {
             refreshInfo(listTorrents.get(selectedIndex));
             log.info("Selected " + selectedIndex + " row");
+            listPeers.clear();
         }
     }
 
-    @FXML private void delete(ActionEvent e) {
+    @FXML private void delete(MouseEvent e) {
         if (selectedIndex >= 0) {
             TorrentRow torrentRow = listTorrents.get(selectedIndex);
             torrentRow.getClient().stop();
@@ -159,7 +146,7 @@ public class Controller {
         System.exit(0);
     }
 
-    @FXML protected void openTorrent(ActionEvent e) {
+    @FXML protected void openTorrent(MouseEvent e) {
         fileChooser.getExtensionFilters().addAll(
                 new FileChooser.ExtensionFilter("torrent Files", "*.torrent"),
                 new FileChooser.ExtensionFilter("All Files", "*")

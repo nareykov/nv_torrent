@@ -17,7 +17,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("gui.fxml"));
 
-        Scene scene = new Scene(root, 900, 600);
+        Scene scene = new Scene(root, 900, 550);
 
         primaryStage.setTitle("nv_torrent");
         primaryStage.setScene(scene);

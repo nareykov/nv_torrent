@@ -14,7 +14,7 @@
     <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
          <children>
-              <TableView fx:id="table" editable="false" onMouseClicked="#rowSelected" prefHeight="283.0" prefWidth="683.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <TableView fx:id="table" editable="false" onMouseClicked="#rowSelected" prefHeight="246.0" prefWidth="683.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                   <columns>
                       <TableColumn fx:id="columnName" prefWidth="184.0" text="Name" />
                       <TableColumn fx:id="columnSize" minWidth="9.0" prefWidth="63.0" text="Size" />
@@ -56,6 +56,9 @@
                         <Label text="Name:" />
                         <Label fx:id="labelName" GridPane.columnIndex="1" />
                      </children>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
                   </GridPane>
                </content>
             </Tab>
@@ -72,22 +75,17 @@
             </Tab>
         </tabs>
       </TabPane>
-      <ToolBar prefHeight="40.0" prefWidth="200.0">
+      <ToolBar prefHeight="31.0" prefWidth="683.0">
         <items>
-          <Button fx:id="addButton" mnemonicParsing="false" onAction="#openTorrent" text="r">
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor></Button>
-            <Button fx:id="deleteButton" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#delete" textOverrun="CLIP">
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor></Button>
-            <Button fx:id="closeButton" mnemonicParsing="false" onAction="#close">
+            <ImageView fitHeight="40.0" fitWidth="40.0" onMouseClicked="#openTorrent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Плюс%20Filled-50.png" />
+               </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </Button>
-            <ImageView fitHeight="30.0" fitWidth="26.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" onMouseClicked="#delete" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Отмена%20Filled-50.png" />
                </image>
@@ -95,7 +93,21 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Выключение%20системы%20Filled-50.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
         </items>
+         <opaqueInsets>
+            <Insets top="15.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" top="10.0" />
+         </padding>
       </ToolBar>
     </children>
     <columnConstraints>
@@ -106,7 +118,9 @@
     </padding>
     <rowConstraints>
       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="256.0" minHeight="10.0" prefHeight="246.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="180.0" minHeight="10.0" prefHeight="126.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
       <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
     </rowConstraints>
 </GridPane>
