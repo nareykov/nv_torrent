@@ -1,0 +1,513 @@
+2017-05-24 01:01:07 INFO  Torrent:242 - Multi-file torrent information:
+2017-05-24 01:01:07 INFO  Torrent:244 -   Torrent name: Геннадий Эсса
+2017-05-24 01:01:07 INFO  Torrent:245 -   Announced at:
+2017-05-24 01:01:07 INFO  Torrent:249 -      1. http://peersteers.org/announce.php?ak=114d6a683a&
+2017-05-24 01:01:07 INFO  Torrent:249 -      2. udp://tracker.coppersurfer.tk:6969
+2017-05-24 01:01:07 INFO  Torrent:249 -      3. udp://tracker.leechers-paradise.org:6969
+2017-05-24 01:01:07 INFO  Torrent:256 -   Created on..: Sun May 07 19:47:06 MSK 2017
+2017-05-24 01:01:07 INFO  Torrent:259 -   Comment.....: http://tfile.me/forum/viewtopic.php?p=8068501
+2017-05-24 01:01:07 INFO  Torrent:262 -   Created by..: uTorrent/3.5
+2017-05-24 01:01:07 INFO  Torrent:266 -   Found 10 file(s) in multi-file torrent structure.
+2017-05-24 01:01:07 INFO  Torrent:279 -   Pieces......: 795 piece(s) (16384 byte(s)/piece)
+2017-05-24 01:01:07 INFO  Torrent:282 -   Total size..: 13 017 648 byte(s)
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\3.Возвращение золотого креста.Книга 3.fb2.part (0+660488 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\2.Властелин золотого креста.Книга 2.fb2.part (660488+1123804 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Дикие игры домашних детей.fb2.part (1784292+1197023 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\1.Властелин золотого креста.Книга 1..fb2.part (2981315+1266738 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Плейбой.fb2.part (4248053+1321965 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Остров Красного Солнца и холодных теней.fb2.part (5570018+1333274 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Псарня.fb2.part (6903292+1378312 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\1.Огненный шар. Книга 1.fb2.part (8281604+1443329 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Атлантида.fb2.part (9724933+1516256 byte(s)).
+2017-05-24 01:01:07 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\2.Огненный шар. Книга 2.fb2.part (11241189+1776459 byte(s)).
+2017-05-24 01:01:07 INFO  FileCollectionStorage:61 - Initialized torrent byte storage on 10 file(s) (13017648 total byte(s)).
+2017-05-24 01:01:07 INFO  ConnectionHandler:144 - Listening for incoming connections on DESKTOP-RPO7TF4/192.168.31.104:6881.
+2017-05-24 01:01:07 INFO  Announce:118 - Initialized announce sub-system with 3 trackers on Геннадий Эсса.
+2017-05-24 01:01:07 INFO  Client:146 - BitTorrent client [..646630] for Геннадий Эсса started and listening at 192.168.31.104:6881...
+2017-05-24 01:01:07 INFO  SharedTorrent:342 - Analyzing local data for Геннадий Эсса with 4 threads (795 pieces)...
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 10% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 20% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 30% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 40% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 50% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 60% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 70% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 80% complete
+2017-05-24 01:01:07 INFO  SharedTorrent:367 -   ... 90% complete
+2017-05-24 01:01:07 INFO  Announce:211 - Starting announce loop...
+2017-05-24 01:01:07 INFO  HTTPTrackerClient:80 - Announcing STARTED to tracker with 0U/0D/13017648L bytes...
+2017-05-24 01:01:07 INFO  Client:451 - SHARING 0/795 pieces (0,00%) [0/0] with 0/0 peers at 0,00/0,00 kB/s.
+2017-05-24 01:01:07 INFO  Announce:161 - Setting announce interval to 2723s per tracker request.
+2017-05-24 01:01:07 INFO  Client:683 - Got 12 peer(s) in tracker response.
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://93.171.161.241:6881/?  [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://176.222.173.116:63946/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://95.165.105.170:57713/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://128.73.14.98:42531/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://176.15.14.113:29381/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://194.15.116.12:28431/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://95.153.128.27:61320/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://95.132.209.46:37460/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://94.19.216.79:36711/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://90.188.12.98:35433/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://83.149.47.86:62379/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:489 - Connecting to peer://93.81.185.92:48319/? [Ci|Ci|0]...
+2017-05-24 01:01:07 INFO  ConnectionHandler:503 - Handshaked with peer://94.19.216.79:36711/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB5B77C08523479A95DA07.
+2017-05-24 01:01:07 INFO  Client:738 - Handling new peer connection with peer://94.19.216.79:36711/95DA07...
+2017-05-24 01:01:08 INFO  ConnectionHandler:503 - Handshaked with peer://93.81.185.92:48319/? [Ci|Ci|0], peer ID is 2D5554333432302D66971541B1D56CC1ADCE9950.
+2017-05-24 01:01:08 INFO  Client:738 - Handling new peer connection with peer://93.81.185.92:48319/CE9950...
+2017-05-24 01:01:08 INFO  ConnectionHandler:503 - Handshaked with peer://128.73.14.98:42531/? [Ci|Ci|0], peer ID is 2D5554333530302D1CABD5F1670238049F784699.
+2017-05-24 01:01:08 INFO  Client:738 - Handling new peer connection with peer://128.73.14.98:42531/784699...
+2017-05-24 01:01:10 INFO  Client:451 - SHARING 31/795 pieces (3,90%) [795/3] with 3/15 peers at 192,95/0,00 kB/s.
+2017-05-24 01:01:12 INFO  ConnectionHandler:503 - Handshaked with peer://176.15.14.113:29381/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB7F03FBE4498898A2E6AB.
+2017-05-24 01:01:12 INFO  Client:738 - Handling new peer connection with peer://176.15.14.113:29381/A2E6AB...
+2017-05-24 01:01:13 INFO  Client:451 - SHARING 62/795 pieces (7,80%) [795/2] with 2/16 peers at 148,32/0,00 kB/s.
+2017-05-24 01:01:16 INFO  Client:451 - SHARING 92/795 pieces (11,57%) [795/2] with 2/16 peers at 164,63/0,00 kB/s.
+2017-05-24 01:01:19 INFO  Client:451 - SHARING 121/795 pieces (15,22%) [795/2] with 2/16 peers at 161,18/0,00 kB/s.
+2017-05-24 01:01:21 INFO  Controller:98 - Selected 0 row
+2017-05-24 01:01:22 INFO  Client:451 - SHARING 151/795 pieces (18,99%) [795/2] with 2/16 peers at 159,98/0,00 kB/s.
+2017-05-24 01:01:23 ERROR Controller:121 - File C:\Users\narey\Desktop delete error
+2017-05-24 01:01:25 INFO  Client:451 - SHARING 182/795 pieces (22,89%) [795/2] with 2/16 peers at 168,85/0,00 kB/s.
+2017-05-24 01:01:28 INFO  Client:451 - SHARING 213/795 pieces (26,79%) [795/2] with 2/16 peers at 165,94/0,00 kB/s.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://176.222.173.116:63946/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://194.15.116.12:28431/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://95.165.105.170:57713/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://93.171.161.241:6881/?  [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://95.132.209.46:37460/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://95.153.128.27:61320/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://90.188.12.98:35433/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:28 WARN  Client:782 - Could not connect to peer://83.149.47.86:62379/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:01:31 INFO  Client:451 - SHARING 241/795 pieces (30,31%) [795/2] with 2/8 peers at 166,59/0,00 kB/s.
+2017-05-24 01:01:34 INFO  Client:451 - SHARING 265/795 pieces (33,33%) [795/2] with 2/8 peers at 131,33/0,00 kB/s.
+2017-05-24 01:01:37 INFO  Client:451 - SHARING 296/795 pieces (37,23%) [795/2] with 2/8 peers at 148,10/0,00 kB/s.
+2017-05-24 01:01:40 INFO  Client:451 - SHARING 327/795 pieces (41,13%) [795/2] with 2/8 peers at 153,90/0,00 kB/s.
+2017-05-24 01:01:43 INFO  Client:451 - SHARING 358/795 pieces (45,03%) [795/2] with 2/8 peers at 170,84/0,00 kB/s.
+2017-05-24 01:01:46 INFO  Client:451 - SHARING 390/795 pieces (49,06%) [795/2] with 2/8 peers at 169,70/0,00 kB/s.
+2017-05-24 01:01:49 INFO  Client:451 - SHARING 420/795 pieces (52,83%) [795/2] with 2/8 peers at 166,33/0,00 kB/s.
+2017-05-24 01:01:52 INFO  Client:451 - SHARING 451/795 pieces (56,73%) [795/2] with 2/8 peers at 170,90/0,00 kB/s.
+2017-05-24 01:01:55 INFO  Client:451 - SHARING 482/795 pieces (60,63%) [795/2] with 2/8 peers at 168,65/0,00 kB/s.
+2017-05-24 01:01:58 INFO  Client:451 - SHARING 513/795 pieces (64,53%) [795/2] with 2/8 peers at 168,05/0,00 kB/s.
+2017-05-24 01:02:01 INFO  Client:451 - SHARING 544/795 pieces (68,43%) [795/2] with 2/8 peers at 174,21/0,00 kB/s.
+2017-05-24 01:02:04 INFO  Client:451 - SHARING 575/795 pieces (72,33%) [795/2] with 2/8 peers at 169,03/0,00 kB/s.
+2017-05-24 01:02:07 INFO  Client:451 - SHARING 607/795 pieces (76,35%) [795/2] with 2/8 peers at 169,14/0,00 kB/s.
+2017-05-24 01:02:10 INFO  Client:451 - SHARING 639/795 pieces (80,38%) [795/2] with 2/8 peers at 174,03/0,00 kB/s.
+2017-05-24 01:02:13 INFO  Client:451 - SHARING 670/795 pieces (84,28%) [795/2] with 2/8 peers at 170,37/0,00 kB/s.
+2017-05-24 01:02:16 INFO  Client:451 - SHARING 701/795 pieces (88,18%) [795/2] with 2/8 peers at 169,45/0,00 kB/s.
+2017-05-24 01:02:19 INFO  Client:451 - SHARING 733/795 pieces (92,20%) [795/2] with 2/8 peers at 176,31/0,00 kB/s.
+2017-05-24 01:02:22 INFO  Client:451 - SHARING 764/795 pieces (96,10%) [795/2] with 2/8 peers at 170,98/0,00 kB/s.
+2017-05-24 01:02:25 INFO  Client:862 - Last piece validated and completed, finishing download...
+2017-05-24 01:02:25 INFO  Client:868 - Cancelled 1 remaining pending requests on peer://93.81.185.92:48319/CE9950 [ci|cI|795].
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from 3.Возвращение золотого креста.Книга 3.fb2.part to 3.Возвращение золотого креста.Книга 3.fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from 2.Властелин золотого креста.Книга 2.fb2.part to 2.Властелин золотого креста.Книга 2.fb2.
+2017-05-24 01:02:25 INFO  Client:451 - SHARING 795/795 pieces (100,00%) [795/0] with 2/8 peers at 169,46/0,00 kB/s.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from Дикие игры домашних детей.fb2.part to Дикие игры домашних детей.fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from 1.Властелин золотого креста.Книга 1..fb2.part to 1.Властелин золотого креста.Книга 1..fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from Плейбой.fb2.part to Плейбой.fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from Остров Красного Солнца и холодных теней.fb2.part to Остров Красного Солнца и холодных теней.fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from Псарня.fb2.part to Псарня.fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from 1.Огненный шар. Книга 1.fb2.part to 1.Огненный шар. Книга 1.fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from Атлантида.fb2.part to Атлантида.fb2.
+2017-05-24 01:02:25 INFO  FileStorage:170 - Moved torrent data from 2.Огненный шар. Книга 2.fb2.part to 2.Огненный шар. Книга 2.fb2.
+2017-05-24 01:02:25 INFO  HTTPTrackerClient:80 - Announcing COMPLETED to tracker with 0U/13017648D/0L bytes...
+2017-05-24 01:02:26 INFO  Client:885 - Download is complete and finalized.
+2017-05-24 01:02:26 INFO  Client:941 - Download of 795 pieces completed.
+2017-05-24 01:02:26 INFO  Client:946 - Seeding indefinetely...
+2017-05-24 01:02:28 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:02:31 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:02:34 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:02:37 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:02:40 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:02:43 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:02:46 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:02:49 INFO  Client:451 - SEEDING 795/795 pieces (100,00%) [0/0] with 0/8 peers at 0,00/0,00 kB/s.
+2017-05-24 01:04:39 INFO  Torrent:242 - Multi-file torrent information:
+2017-05-24 01:04:39 INFO  Torrent:244 -   Torrent name: Геннадий Эсса
+2017-05-24 01:04:39 INFO  Torrent:245 -   Announced at:
+2017-05-24 01:04:39 INFO  Torrent:249 -      1. http://peersteers.org/announce.php?ak=114d6a683a&
+2017-05-24 01:04:39 INFO  Torrent:249 -      2. udp://tracker.coppersurfer.tk:6969
+2017-05-24 01:04:39 INFO  Torrent:249 -      3. udp://tracker.leechers-paradise.org:6969
+2017-05-24 01:04:39 INFO  Torrent:256 -   Created on..: Sun May 07 19:47:06 MSK 2017
+2017-05-24 01:04:39 INFO  Torrent:259 -   Comment.....: http://tfile.me/forum/viewtopic.php?p=8068501
+2017-05-24 01:04:39 INFO  Torrent:262 -   Created by..: uTorrent/3.5
+2017-05-24 01:04:39 INFO  Torrent:266 -   Found 10 file(s) in multi-file torrent structure.
+2017-05-24 01:04:39 INFO  Torrent:279 -   Pieces......: 795 piece(s) (16384 byte(s)/piece)
+2017-05-24 01:04:39 INFO  Torrent:282 -   Total size..: 13 017 648 byte(s)
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\3.Возвращение золотого креста.Книга 3.fb2.part (0+660488 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\2.Властелин золотого креста.Книга 2.fb2.part (660488+1123804 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Дикие игры домашних детей.fb2.part (1784292+1197023 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\1.Властелин золотого креста.Книга 1..fb2.part (2981315+1266738 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Плейбой.fb2.part (4248053+1321965 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Остров Красного Солнца и холодных теней.fb2.part (5570018+1333274 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Псарня.fb2.part (6903292+1378312 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\1.Огненный шар. Книга 1.fb2.part (8281604+1443329 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Атлантида.fb2.part (9724933+1516256 byte(s)).
+2017-05-24 01:04:39 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\2.Огненный шар. Книга 2.fb2.part (11241189+1776459 byte(s)).
+2017-05-24 01:04:39 INFO  FileCollectionStorage:61 - Initialized torrent byte storage on 10 file(s) (13017648 total byte(s)).
+2017-05-24 01:04:39 INFO  ConnectionHandler:144 - Listening for incoming connections on DESKTOP-RPO7TF4/192.168.31.104:6881.
+2017-05-24 01:04:39 INFO  Announce:118 - Initialized announce sub-system with 3 trackers on Геннадий Эсса.
+2017-05-24 01:04:39 INFO  Client:146 - BitTorrent client [..373132] for Геннадий Эсса started and listening at 192.168.31.104:6881...
+2017-05-24 01:04:39 INFO  SharedTorrent:342 - Analyzing local data for Геннадий Эсса with 4 threads (795 pieces)...
+2017-05-24 01:04:39 INFO  SharedTorrent:367 -   ... 10% complete
+2017-05-24 01:04:39 INFO  SharedTorrent:367 -   ... 20% complete
+2017-05-24 01:04:39 INFO  SharedTorrent:367 -   ... 30% complete
+2017-05-24 01:04:39 INFO  SharedTorrent:367 -   ... 40% complete
+2017-05-24 01:04:39 INFO  SharedTorrent:367 -   ... 50% complete
+2017-05-24 01:04:40 INFO  SharedTorrent:367 -   ... 60% complete
+2017-05-24 01:04:40 INFO  SharedTorrent:367 -   ... 70% complete
+2017-05-24 01:04:40 INFO  SharedTorrent:367 -   ... 80% complete
+2017-05-24 01:04:40 INFO  SharedTorrent:367 -   ... 90% complete
+2017-05-24 01:04:40 INFO  Announce:211 - Starting announce loop...
+2017-05-24 01:04:40 INFO  HTTPTrackerClient:80 - Announcing STARTED to tracker with 0U/0D/13017648L bytes...
+2017-05-24 01:04:40 INFO  Client:451 - SHARING 0/795 pieces (0,00%) [0/0] with 0/0 peers at 0,00/0,00 kB/s.
+2017-05-24 01:04:40 INFO  Announce:161 - Setting announce interval to 2489s per tracker request.
+2017-05-24 01:04:40 INFO  Client:683 - Got 12 peer(s) in tracker response.
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://93.171.161.241:6881/?  [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://128.73.14.98:42531/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://95.165.105.170:57713/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://176.222.173.116:63946/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://194.15.116.12:28431/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://176.15.14.113:29381/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://95.153.128.27:61320/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://83.149.47.86:62379/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://93.81.185.92:48319/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://94.19.216.79:36711/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://95.132.209.46:37460/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:489 - Connecting to peer://90.188.12.98:35433/? [Ci|Ci|0]...
+2017-05-24 01:04:40 INFO  ConnectionHandler:503 - Handshaked with peer://94.19.216.79:36711/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB8938613A5B75FED5416B.
+2017-05-24 01:04:40 INFO  Client:738 - Handling new peer connection with peer://94.19.216.79:36711/D5416B...
+2017-05-24 01:04:40 INFO  ConnectionHandler:503 - Handshaked with peer://93.81.185.92:48319/? [Ci|Ci|0], peer ID is 2D5554333432302D6697629862D01D503FC179DB.
+2017-05-24 01:04:40 INFO  Client:738 - Handling new peer connection with peer://93.81.185.92:48319/C179DB...
+2017-05-24 01:04:40 INFO  ConnectionHandler:503 - Handshaked with peer://128.73.14.98:42531/? [Ci|Ci|0], peer ID is 2D5554333530302D1CABF4C762E880AEBB783BA6.
+2017-05-24 01:04:40 INFO  Client:738 - Handling new peer connection with peer://128.73.14.98:42531/783BA6...
+2017-05-24 01:04:42 INFO  Controller:98 - Selected 0 row
+2017-05-24 01:04:43 INFO  Client:451 - SHARING 34/795 pieces (4,28%) [795/3] with 3/15 peers at 205,12/0,00 kB/s.
+2017-05-24 01:04:44 INFO  ConnectionHandler:503 - Handshaked with peer://176.15.14.113:29381/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB9D4B206D94A644A62A1A.
+2017-05-24 01:04:44 INFO  Client:738 - Handling new peer connection with peer://176.15.14.113:29381/A62A1A...
+2017-05-24 01:04:46 INFO  Client:451 - SHARING 87/795 pieces (10,94%) [795/3] with 3/16 peers at 247,42/0,00 kB/s.
+2017-05-24 01:04:49 INFO  Client:451 - SHARING 137/795 pieces (17,23%) [795/3] with 3/16 peers at 270,54/0,00 kB/s.
+2017-05-24 01:04:52 INFO  Client:451 - SHARING 190/795 pieces (23,90%) [795/3] with 3/16 peers at 274,85/0,00 kB/s.
+2017-05-24 01:05:34 INFO  Torrent:242 - Multi-file torrent information:
+2017-05-24 01:05:34 INFO  Torrent:244 -   Torrent name: Геннадий Эсса
+2017-05-24 01:05:34 INFO  Torrent:245 -   Announced at:
+2017-05-24 01:05:34 INFO  Torrent:249 -      1. http://peersteers.org/announce.php?ak=114d6a683a&
+2017-05-24 01:05:34 INFO  Torrent:249 -      2. udp://tracker.coppersurfer.tk:6969
+2017-05-24 01:05:34 INFO  Torrent:249 -      3. udp://tracker.leechers-paradise.org:6969
+2017-05-24 01:05:34 INFO  Torrent:256 -   Created on..: Sun May 07 19:47:06 MSK 2017
+2017-05-24 01:05:34 INFO  Torrent:259 -   Comment.....: http://tfile.me/forum/viewtopic.php?p=8068501
+2017-05-24 01:05:34 INFO  Torrent:262 -   Created by..: uTorrent/3.5
+2017-05-24 01:05:34 INFO  Torrent:266 -   Found 10 file(s) in multi-file torrent structure.
+2017-05-24 01:05:34 INFO  Torrent:279 -   Pieces......: 795 piece(s) (16384 byte(s)/piece)
+2017-05-24 01:05:34 INFO  Torrent:282 -   Total size..: 13 017 648 byte(s)
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\3.Возвращение золотого креста.Книга 3.fb2.part (0+660488 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\2.Властелин золотого креста.Книга 2.fb2.part (660488+1123804 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Дикие игры домашних детей.fb2.part (1784292+1197023 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\1.Властелин золотого креста.Книга 1..fb2.part (2981315+1266738 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Плейбой.fb2.part (4248053+1321965 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Остров Красного Солнца и холодных теней.fb2.part (5570018+1333274 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Псарня.fb2.part (6903292+1378312 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\1.Огненный шар. Книга 1.fb2.part (8281604+1443329 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Атлантида.fb2.part (9724933+1516256 byte(s)).
+2017-05-24 01:05:34 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\2.Огненный шар. Книга 2.fb2.part (11241189+1776459 byte(s)).
+2017-05-24 01:05:34 INFO  FileCollectionStorage:61 - Initialized torrent byte storage on 10 file(s) (13017648 total byte(s)).
+2017-05-24 01:05:34 INFO  ConnectionHandler:144 - Listening for incoming connections on DESKTOP-RPO7TF4/192.168.31.104:6881.
+2017-05-24 01:05:34 INFO  Announce:118 - Initialized announce sub-system with 3 trackers on Геннадий Эсса.
+2017-05-24 01:05:34 INFO  Client:146 - BitTorrent client [..383566] for Геннадий Эсса started and listening at 192.168.31.104:6881...
+2017-05-24 01:05:34 INFO  SharedTorrent:342 - Analyzing local data for Геннадий Эсса with 4 threads (795 pieces)...
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 10% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 20% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 30% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 40% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 50% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 60% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 70% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 80% complete
+2017-05-24 01:05:34 INFO  SharedTorrent:367 -   ... 90% complete
+2017-05-24 01:05:34 INFO  Announce:211 - Starting announce loop...
+2017-05-24 01:05:34 INFO  HTTPTrackerClient:80 - Announcing STARTED to tracker with 0U/0D/13017648L bytes...
+2017-05-24 01:05:34 INFO  Client:451 - SHARING 0/795 pieces (0,00%) [0/0] with 0/0 peers at 0,00/0,00 kB/s.
+2017-05-24 01:05:34 INFO  Announce:161 - Setting announce interval to 2401s per tracker request.
+2017-05-24 01:05:34 INFO  Client:683 - Got 12 peer(s) in tracker response.
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://90.188.12.98:35433/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://93.81.185.92:48319/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://95.153.128.27:61320/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://194.15.116.12:28431/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://93.171.161.241:6881/?  [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://95.165.105.170:57713/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://95.132.209.46:37460/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://128.73.14.98:42531/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://94.19.216.79:36711/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://83.149.47.86:62379/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://176.222.173.116:63946/? [Ci|Ci|0]...
+2017-05-24 01:05:34 INFO  ConnectionHandler:489 - Connecting to peer://176.15.14.113:29381/? [Ci|Ci|0]...
+2017-05-24 01:05:35 WARN  Client:782 - Could not connect to peer://93.81.185.92:48319/? [Ci|Ci|0]: Handshake size read underrrun.
+2017-05-24 01:05:35 WARN  Client:782 - Could not connect to peer://94.19.216.79:36711/? [Ci|Ci|0]: Handshake size read underrrun.
+2017-05-24 01:05:35 INFO  ConnectionHandler:503 - Handshaked with peer://128.73.14.98:42531/? [Ci|Ci|0], peer ID is 2D5554333530302D1CABE401986B4AAD0B99F1E8.
+2017-05-24 01:05:35 INFO  Client:738 - Handling new peer connection with peer://128.73.14.98:42531/99F1E8...
+2017-05-24 01:05:36 INFO  Controller:98 - Selected 0 row
+2017-05-24 01:05:37 INFO  Client:451 - SHARING 7/795 pieces (0,88%) [795/1] with 1/11 peers at 41,99/0,00 kB/s.
+2017-05-24 01:05:39 INFO  ConnectionHandler:503 - Handshaked with peer://176.15.14.113:29381/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB2C889C43F7DF790BDA59.
+2017-05-24 01:05:39 INFO  Client:738 - Handling new peer connection with peer://176.15.14.113:29381/0BDA59...
+2017-05-24 01:05:40 INFO  Client:451 - SHARING 19/795 pieces (2,39%) [795/1] with 1/12 peers at 55,48/0,00 kB/s.
+2017-05-24 01:05:43 INFO  Client:451 - SHARING 33/795 pieces (4,15%) [795/1] with 1/12 peers at 76,22/0,00 kB/s.
+2017-05-24 01:05:46 INFO  Client:451 - SHARING 47/795 pieces (5,91%) [795/1] with 1/12 peers at 75,36/0,00 kB/s.
+2017-05-24 01:05:49 INFO  Client:451 - SHARING 60/795 pieces (7,55%) [795/1] with 1/12 peers at 74,66/0,00 kB/s.
+2017-05-24 01:05:52 INFO  Client:451 - SHARING 74/795 pieces (9,31%) [795/1] with 1/12 peers at 79,91/0,00 kB/s.
+2017-05-24 01:05:55 INFO  Client:451 - SHARING 89/795 pieces (11,19%) [795/1] with 1/12 peers at 77,46/0,00 kB/s.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://90.188.12.98:35433/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://194.15.116.12:28431/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://93.171.161.241:6881/?  [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://95.132.209.46:37460/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://95.153.128.27:61320/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://83.149.47.86:62379/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://95.165.105.170:57713/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:55 WARN  Client:782 - Could not connect to peer://176.222.173.116:63946/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:05:58 INFO  Client:451 - SHARING 103/795 pieces (12,96%) [795/1] with 1/4 peers at 77,00/0,00 kB/s.
+2017-05-24 01:06:01 INFO  Client:451 - SHARING 117/795 pieces (14,72%) [795/1] with 1/4 peers at 79,04/0,00 kB/s.
+2017-05-24 01:06:03 INFO  Controller:98 - Selected 0 row
+2017-05-24 01:06:04 INFO  Client:451 - SHARING 132/795 pieces (16,60%) [795/1] with 1/4 peers at 78,83/0,00 kB/s.
+2017-05-24 01:06:06 ERROR Controller:121 - File C:\Users\narey\Desktop\Геннадий Эсса delete error
+2017-05-24 01:06:07 INFO  Client:451 - SHARING 147/795 pieces (18,49%) [795/1] with 1/4 peers at 78,87/0,00 kB/s.
+2017-05-24 01:06:10 INFO  Client:451 - SHARING 161/795 pieces (20,25%) [795/1] with 1/4 peers at 76,06/0,00 kB/s.
+2017-05-24 01:06:13 INFO  Client:451 - SHARING 175/795 pieces (22,01%) [795/1] with 1/4 peers at 76,58/0,00 kB/s.
+2017-05-24 01:06:16 INFO  Client:451 - SHARING 190/795 pieces (23,90%) [795/1] with 1/4 peers at 76,61/0,00 kB/s.
+2017-05-24 01:06:19 INFO  Client:451 - SHARING 204/795 pieces (25,66%) [795/1] with 1/4 peers at 78,29/0,00 kB/s.
+2017-05-24 01:06:22 INFO  Client:451 - SHARING 218/795 pieces (27,42%) [795/1] with 1/4 peers at 76,46/0,00 kB/s.
+2017-05-24 01:10:04 INFO  Torrent:242 - Multi-file torrent information:
+2017-05-24 01:10:04 INFO  Torrent:244 -   Torrent name: Геннадий Эсса
+2017-05-24 01:10:04 INFO  Torrent:245 -   Announced at:
+2017-05-24 01:10:04 INFO  Torrent:249 -      1. http://peersteers.org/announce.php?ak=114d6a683a&
+2017-05-24 01:10:04 INFO  Torrent:249 -      2. udp://tracker.coppersurfer.tk:6969
+2017-05-24 01:10:04 INFO  Torrent:249 -      3. udp://tracker.leechers-paradise.org:6969
+2017-05-24 01:10:04 INFO  Torrent:256 -   Created on..: Sun May 07 19:47:06 MSK 2017
+2017-05-24 01:10:04 INFO  Torrent:259 -   Comment.....: http://tfile.me/forum/viewtopic.php?p=8068501
+2017-05-24 01:10:04 INFO  Torrent:262 -   Created by..: uTorrent/3.5
+2017-05-24 01:10:04 INFO  Torrent:266 -   Found 10 file(s) in multi-file torrent structure.
+2017-05-24 01:10:04 INFO  Torrent:279 -   Pieces......: 795 piece(s) (16384 byte(s)/piece)
+2017-05-24 01:10:04 INFO  Torrent:282 -   Total size..: 13 017 648 byte(s)
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\3.Возвращение золотого креста.Книга 3.fb2.part (0+660488 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\2.Властелин золотого креста.Книга 2.fb2.part (660488+1123804 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Дикие игры домашних детей.fb2.part (1784292+1197023 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\1.Властелин золотого креста.Книга 1..fb2.part (2981315+1266738 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Плейбой.fb2.part (4248053+1321965 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Остров Красного Солнца и холодных теней.fb2.part (5570018+1333274 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Псарня.fb2.part (6903292+1378312 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\1.Огненный шар. Книга 1.fb2.part (8281604+1443329 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Атлантида.fb2.part (9724933+1516256 byte(s)).
+2017-05-24 01:10:04 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\2.Огненный шар. Книга 2.fb2.part (11241189+1776459 byte(s)).
+2017-05-24 01:10:04 INFO  FileCollectionStorage:61 - Initialized torrent byte storage on 10 file(s) (13017648 total byte(s)).
+2017-05-24 01:10:05 INFO  ConnectionHandler:144 - Listening for incoming connections on DESKTOP-RPO7TF4/192.168.31.104:6881.
+2017-05-24 01:10:05 INFO  Announce:118 - Initialized announce sub-system with 3 trackers on Геннадий Эсса.
+2017-05-24 01:10:05 INFO  Client:146 - BitTorrent client [..313434] for Геннадий Эсса started and listening at 192.168.31.104:6881...
+2017-05-24 01:10:05 INFO  SharedTorrent:342 - Analyzing local data for Геннадий Эсса with 4 threads (795 pieces)...
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 10% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 20% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 30% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 40% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 50% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 60% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 70% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 80% complete
+2017-05-24 01:10:05 INFO  SharedTorrent:367 -   ... 90% complete
+2017-05-24 01:10:05 INFO  Announce:211 - Starting announce loop...
+2017-05-24 01:10:05 INFO  Client:451 - SHARING 0/795 pieces (0,00%) [0/0] with 0/0 peers at 0,00/0,00 kB/s.
+2017-05-24 01:10:05 INFO  HTTPTrackerClient:80 - Announcing STARTED to tracker with 0U/0D/13017648L bytes...
+2017-05-24 01:10:05 INFO  Announce:161 - Setting announce interval to 2501s per tracker request.
+2017-05-24 01:10:05 INFO  Client:683 - Got 12 peer(s) in tracker response.
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://93.171.161.241:6881/?  [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://176.222.173.116:63946/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://194.15.116.12:28431/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://94.19.216.79:36711/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://176.15.14.113:29381/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://128.73.14.98:42531/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://95.165.105.170:57713/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://95.153.128.27:61320/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://95.132.209.46:37460/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://93.81.185.92:48319/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://83.149.47.86:62379/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:489 - Connecting to peer://90.188.12.98:35433/? [Ci|Ci|0]...
+2017-05-24 01:10:05 INFO  ConnectionHandler:503 - Handshaked with peer://93.81.185.92:48319/? [Ci|Ci|0], peer ID is 2D5554333432302D66972527A97E82108663AE54.
+2017-05-24 01:10:05 INFO  Client:738 - Handling new peer connection with peer://93.81.185.92:48319/63AE54...
+2017-05-24 01:10:05 INFO  ConnectionHandler:503 - Handshaked with peer://128.73.14.98:42531/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB5B1312FB266B55B65348.
+2017-05-24 01:10:05 INFO  Client:738 - Handling new peer connection with peer://128.73.14.98:42531/B65348...
+2017-05-24 01:10:08 INFO  ConnectionHandler:503 - Handshaked with peer://94.19.216.79:36711/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB43661CDCF2C22726A2BD.
+2017-05-24 01:10:08 INFO  Client:738 - Handling new peer connection with peer://94.19.216.79:36711/26A2BD...
+2017-05-24 01:10:08 INFO  Client:451 - SHARING 19/795 pieces (2,39%) [795/2] with 2/15 peers at 115,46/0,00 kB/s.
+2017-05-24 01:10:09 INFO  Controller:98 - Selected 0 row
+2017-05-24 01:10:10 INFO  ConnectionHandler:503 - Handshaked with peer://176.15.14.113:29381/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB4667975C12F0625A80E9.
+2017-05-24 01:10:10 INFO  Client:738 - Handling new peer connection with peer://176.15.14.113:29381/5A80E9...
+2017-05-24 01:10:11 INFO  Announce:242 - Exited announce loop.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://95.165.105.170:57713/? [Ci|Ci|0]: null.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://93.171.161.241:6881/?  [Ci|Ci|0]: null.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://176.222.173.116:63946/? [Ci|Ci|0]: null.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://95.132.209.46:37460/? [Ci|Ci|0]: null.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://194.15.116.12:28431/? [Ci|Ci|0]: null.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://95.153.128.27:61320/? [Ci|Ci|0]: null.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://90.188.12.98:35433/? [Ci|Ci|0]: null.
+2017-05-24 01:10:11 WARN  Client:782 - Could not connect to peer://83.149.47.86:62379/? [Ci|Ci|0]: null.
+2017-05-24 01:10:11 INFO  HTTPTrackerClient:80 - Announcing STOPPED to tracker with 0U/851968D/12165680L bytes...
+2017-05-24 01:10:12 INFO  Client:430 - BitTorrent client signing off.
+2017-05-24 01:10:12 WARN  Client:909 - I/O error while exchanging data with peer://93.81.185.92:48319/63AE54 [Ci|Ci|795], closing connection with it!
+2017-05-24 01:10:12 INFO  Controller:119 - File C:\Users\narey\Desktop\Геннадий Эсса deleted successfully
+2017-05-24 01:10:12 WARN  SharingPeer:334 - Attempting to send a message to non-connected peer peer://128.73.14.98:42531/B65348 [Ci|Ci|795]!
+2017-05-24 01:10:42 INFO  Controller:150 - Closing GUI
+2017-05-24 01:16:18 INFO  Torrent:242 - Multi-file torrent information:
+2017-05-24 01:16:18 INFO  Torrent:244 -   Torrent name: Геннадий Эсса
+2017-05-24 01:16:18 INFO  Torrent:245 -   Announced at:
+2017-05-24 01:16:18 INFO  Torrent:249 -      1. http://peersteers.org/announce.php?ak=114d6a683a&
+2017-05-24 01:16:18 INFO  Torrent:249 -      2. udp://tracker.coppersurfer.tk:6969
+2017-05-24 01:16:18 INFO  Torrent:249 -      3. udp://tracker.leechers-paradise.org:6969
+2017-05-24 01:16:18 INFO  Torrent:256 -   Created on..: Sun May 07 19:47:06 MSK 2017
+2017-05-24 01:16:18 INFO  Torrent:259 -   Comment.....: http://tfile.me/forum/viewtopic.php?p=8068501
+2017-05-24 01:16:18 INFO  Torrent:262 -   Created by..: uTorrent/3.5
+2017-05-24 01:16:18 INFO  Torrent:266 -   Found 10 file(s) in multi-file torrent structure.
+2017-05-24 01:16:18 INFO  Torrent:279 -   Pieces......: 795 piece(s) (16384 byte(s)/piece)
+2017-05-24 01:16:18 INFO  Torrent:282 -   Total size..: 13 017 648 byte(s)
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\3.Возвращение золотого креста.Книга 3.fb2.part (0+660488 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\2.Властелин золотого креста.Книга 2.fb2.part (660488+1123804 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Дикие игры домашних детей.fb2.part (1784292+1197023 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\1.Властелин золотого креста.Книга 1..fb2.part (2981315+1266738 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Плейбой.fb2.part (4248053+1321965 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Остров Красного Солнца и холодных теней.fb2.part (5570018+1333274 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Псарня.fb2.part (6903292+1378312 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\1.Огненный шар. Книга 1.fb2.part (8281604+1443329 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Атлантида.fb2.part (9724933+1516256 byte(s)).
+2017-05-24 01:16:18 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\2.Огненный шар. Книга 2.fb2.part (11241189+1776459 byte(s)).
+2017-05-24 01:16:18 INFO  FileCollectionStorage:61 - Initialized torrent byte storage on 10 file(s) (13017648 total byte(s)).
+2017-05-24 01:16:18 INFO  ConnectionHandler:144 - Listening for incoming connections on DESKTOP-RPO7TF4/192.168.31.104:6881.
+2017-05-24 01:16:18 INFO  Announce:118 - Initialized announce sub-system with 3 trackers on Геннадий Эсса.
+2017-05-24 01:16:18 INFO  Client:146 - BitTorrent client [..356431] for Геннадий Эсса started and listening at 192.168.31.104:6881...
+2017-05-24 01:16:18 INFO  SharedTorrent:342 - Analyzing local data for Геннадий Эсса with 4 threads (795 pieces)...
+2017-05-24 01:16:18 INFO  SharedTorrent:367 -   ... 10% complete
+2017-05-24 01:16:18 INFO  SharedTorrent:367 -   ... 20% complete
+2017-05-24 01:16:18 INFO  SharedTorrent:367 -   ... 30% complete
+2017-05-24 01:16:18 INFO  SharedTorrent:367 -   ... 40% complete
+2017-05-24 01:16:18 INFO  SharedTorrent:367 -   ... 50% complete
+2017-05-24 01:16:18 INFO  SharedTorrent:367 -   ... 60% complete
+2017-05-24 01:16:19 INFO  SharedTorrent:367 -   ... 70% complete
+2017-05-24 01:16:19 INFO  SharedTorrent:367 -   ... 80% complete
+2017-05-24 01:16:19 INFO  SharedTorrent:367 -   ... 90% complete
+2017-05-24 01:16:19 INFO  Announce:211 - Starting announce loop...
+2017-05-24 01:16:19 INFO  HTTPTrackerClient:80 - Announcing STARTED to tracker with 0U/0D/13017648L bytes...
+2017-05-24 01:16:19 INFO  Client:451 - SHARING 0/795 pieces (0,00%) [0/0] with 0/0 peers at 0,00/0,00 kB/s.
+2017-05-24 01:16:19 INFO  Announce:161 - Setting announce interval to 2573s per tracker request.
+2017-05-24 01:16:19 INFO  Client:683 - Got 12 peer(s) in tracker response.
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://93.171.161.241:6881/?  [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://83.149.47.86:62379/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://93.81.185.92:48319/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://90.188.12.98:35433/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://194.15.116.12:28431/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://176.15.14.113:29381/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://176.222.173.116:63946/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://128.73.14.98:42531/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://95.165.105.170:57713/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://95.153.128.27:61320/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://94.19.216.79:36711/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:489 - Connecting to peer://95.132.209.46:37460/? [Ci|Ci|0]...
+2017-05-24 01:16:19 INFO  ConnectionHandler:503 - Handshaked with peer://94.19.216.79:36711/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB76640AD08D99AF11E7D7.
+2017-05-24 01:16:19 INFO  Client:738 - Handling new peer connection with peer://94.19.216.79:36711/11E7D7...
+2017-05-24 01:16:19 INFO  ConnectionHandler:503 - Handshaked with peer://93.81.185.92:48319/? [Ci|Ci|0], peer ID is 2D5554333432302D669741F60A38BEBB8153C99E.
+2017-05-24 01:16:19 INFO  Client:738 - Handling new peer connection with peer://93.81.185.92:48319/53C99E...
+2017-05-24 01:16:19 INFO  ConnectionHandler:503 - Handshaked with peer://128.73.14.98:42531/? [Ci|Ci|0], peer ID is 2D5554333530302D1CABD4F66DFD5FB3C0B9B717.
+2017-05-24 01:16:19 INFO  Client:738 - Handling new peer connection with peer://128.73.14.98:42531/B9B717...
+2017-05-24 01:16:22 INFO  Client:451 - SHARING 33/795 pieces (4,15%) [795/2] with 2/15 peers at 122,11/0,00 kB/s.
+2017-05-24 01:16:23 INFO  Controller:98 - Selected 0 row
+2017-05-24 01:16:23 INFO  ConnectionHandler:503 - Handshaked with peer://176.15.14.113:29381/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB13FFEDD6781DAE894C2F.
+2017-05-24 01:16:23 INFO  Client:738 - Handling new peer connection with peer://176.15.14.113:29381/894C2F...
+2017-05-24 01:16:25 INFO  Client:451 - SHARING 64/795 pieces (8,05%) [795/2] with 2/16 peers at 143,06/0,00 kB/s.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://95.132.209.46:37460/? [Ci|Ci|0]: null.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://194.15.116.12:28431/? [Ci|Ci|0]: null.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://176.222.173.116:63946/? [Ci|Ci|0]: null.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://83.149.47.86:62379/? [Ci|Ci|0]: null.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://95.165.105.170:57713/? [Ci|Ci|0]: null.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://93.171.161.241:6881/?  [Ci|Ci|0]: null.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://95.153.128.27:61320/? [Ci|Ci|0]: null.
+2017-05-24 01:16:25 WARN  Client:782 - Could not connect to peer://90.188.12.98:35433/? [Ci|Ci|0]: null.
+2017-05-24 01:16:25 INFO  Announce:242 - Exited announce loop.
+2017-05-24 01:16:26 INFO  HTTPTrackerClient:80 - Announcing STOPPED to tracker with 0U/1245184D/11772464L bytes...
+2017-05-24 01:16:26 INFO  Client:430 - BitTorrent client signing off.
+2017-05-24 01:16:26 WARN  Client:909 - I/O error while exchanging data with peer://93.81.185.92:48319/53C99E [Ci|Ci|795], closing connection with it!
+2017-05-24 01:16:26 INFO  Controller:120 - File C:\Users\narey\Desktop\Геннадий Эсса deleted successfully
+2017-05-24 01:16:26 WARN  SharingPeer:334 - Attempting to send a message to non-connected peer peer://128.73.14.98:42531/B9B717 [Ci|Ci|795]!
+2017-05-24 01:18:57 INFO  Torrent:242 - Multi-file torrent information:
+2017-05-24 01:18:57 INFO  Torrent:244 -   Torrent name: Геннадий Эсса
+2017-05-24 01:18:57 INFO  Torrent:245 -   Announced at:
+2017-05-24 01:18:57 INFO  Torrent:249 -      1. http://peersteers.org/announce.php?ak=114d6a683a&
+2017-05-24 01:18:57 INFO  Torrent:249 -      2. udp://tracker.coppersurfer.tk:6969
+2017-05-24 01:18:57 INFO  Torrent:249 -      3. udp://tracker.leechers-paradise.org:6969
+2017-05-24 01:18:57 INFO  Torrent:256 -   Created on..: Sun May 07 19:47:06 MSK 2017
+2017-05-24 01:18:57 INFO  Torrent:259 -   Comment.....: http://tfile.me/forum/viewtopic.php?p=8068501
+2017-05-24 01:18:57 INFO  Torrent:262 -   Created by..: uTorrent/3.5
+2017-05-24 01:18:57 INFO  Torrent:266 -   Found 10 file(s) in multi-file torrent structure.
+2017-05-24 01:18:57 INFO  Torrent:279 -   Pieces......: 795 piece(s) (16384 byte(s)/piece)
+2017-05-24 01:18:57 INFO  Torrent:282 -   Total size..: 13 017 648 byte(s)
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\3.Возвращение золотого креста.Книга 3.fb2.part (0+660488 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\2.Властелин золотого креста.Книга 2.fb2.part (660488+1123804 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Дикие игры домашних детей.fb2.part (1784292+1197023 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Властелин золотого креста\1.Властелин золотого креста.Книга 1..fb2.part (2981315+1266738 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Плейбой.fb2.part (4248053+1321965 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Остров Красного Солнца и холодных теней.fb2.part (5570018+1333274 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Псарня.fb2.part (6903292+1378312 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\1.Огненный шар. Книга 1.fb2.part (8281604+1443329 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Атлантида.fb2.part (9724933+1516256 byte(s)).
+2017-05-24 01:18:57 INFO  FileStorage:88 - Initialized byte storage file at C:\Users\narey\Desktop\Геннадий Эсса\Огненный шар\2.Огненный шар. Книга 2.fb2.part (11241189+1776459 byte(s)).
+2017-05-24 01:18:57 INFO  FileCollectionStorage:61 - Initialized torrent byte storage on 10 file(s) (13017648 total byte(s)).
+2017-05-24 01:18:57 INFO  ConnectionHandler:144 - Listening for incoming connections on DESKTOP-RPO7TF4/192.168.31.104:6881.
+2017-05-24 01:18:57 INFO  Announce:118 - Initialized announce sub-system with 3 trackers on Геннадий Эсса.
+2017-05-24 01:18:57 INFO  Client:146 - BitTorrent client [..373666] for Геннадий Эсса started and listening at 192.168.31.104:6881...
+2017-05-24 01:18:57 INFO  SharedTorrent:342 - Analyzing local data for Геннадий Эсса with 4 threads (795 pieces)...
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 10% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 20% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 30% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 40% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 50% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 60% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 70% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 80% complete
+2017-05-24 01:18:57 INFO  SharedTorrent:367 -   ... 90% complete
+2017-05-24 01:18:57 INFO  Announce:211 - Starting announce loop...
+2017-05-24 01:18:57 INFO  HTTPTrackerClient:80 - Announcing STARTED to tracker with 0U/0D/13017648L bytes...
+2017-05-24 01:18:57 INFO  Client:451 - SHARING 0/795 pieces (0,00%) [0/0] with 0/0 peers at 0,00/0,00 kB/s.
+2017-05-24 01:18:57 INFO  Announce:161 - Setting announce interval to 2880s per tracker request.
+2017-05-24 01:18:57 INFO  Client:683 - Got 10 peer(s) in tracker response.
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://194.15.116.12:28431/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://93.81.185.92:48319/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://128.73.14.98:42531/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://95.165.105.170:57713/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://95.153.128.27:61320/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://93.171.161.241:6881/?  [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://83.149.47.86:62379/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://90.188.12.98:35433/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://176.222.173.116:63946/? [Ci|Ci|0]...
+2017-05-24 01:18:57 INFO  ConnectionHandler:489 - Connecting to peer://176.15.14.113:29381/? [Ci|Ci|0]...
+2017-05-24 01:18:58 INFO  ConnectionHandler:503 - Handshaked with peer://93.81.185.92:48319/? [Ci|Ci|0], peer ID is 2D5554333432302D6697ABC6AA42BA7FA595CEF8.
+2017-05-24 01:18:58 INFO  Client:738 - Handling new peer connection with peer://93.81.185.92:48319/95CEF8...
+2017-05-24 01:18:58 INFO  ConnectionHandler:503 - Handshaked with peer://128.73.14.98:42531/? [Ci|Ci|0], peer ID is 2D5554333530302D1CAB9DAC554458F7BE6B53E3.
+2017-05-24 01:18:58 INFO  Client:738 - Handling new peer connection with peer://128.73.14.98:42531/6B53E3...
+2017-05-24 01:18:58 INFO  Controller:98 - Selected 0 row
+2017-05-24 01:19:00 INFO  Client:451 - SHARING 16/795 pieces (2,01%) [795/2] with 2/12 peers at 100,31/0,00 kB/s.
+2017-05-24 01:19:02 INFO  ConnectionHandler:503 - Handshaked with peer://176.15.14.113:29381/? [Ci|Ci|0], peer ID is 2D5554333530302D1CABEE264D3C4DD9662AA179.
+2017-05-24 01:19:02 INFO  Client:738 - Handling new peer connection with peer://176.15.14.113:29381/2AA179...
+2017-05-24 01:19:03 INFO  Client:451 - SHARING 47/795 pieces (5,91%) [795/2] with 2/13 peers at 133,69/0,00 kB/s.
+2017-05-24 01:19:06 INFO  Client:451 - SHARING 76/795 pieces (9,56%) [795/2] with 2/13 peers at 162,11/0,00 kB/s.
+2017-05-24 01:19:09 INFO  Client:451 - SHARING 107/795 pieces (13,46%) [795/2] with 2/13 peers at 161,53/0,00 kB/s.
+2017-05-24 01:19:12 INFO  Client:451 - SHARING 137/795 pieces (17,23%) [795/2] with 2/13 peers at 161,57/0,00 kB/s.
+2017-05-24 01:19:15 INFO  Client:451 - SHARING 166/795 pieces (20,88%) [795/2] with 2/13 peers at 156,54/0,00 kB/s.
+2017-05-24 01:19:18 INFO  Client:451 - SHARING 194/795 pieces (24,40%) [795/2] with 2/13 peers at 154,85/0,00 kB/s.
+2017-05-24 01:19:18 WARN  Client:782 - Could not connect to peer://95.153.128.27:61320/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:19:18 WARN  Client:782 - Could not connect to peer://194.15.116.12:28431/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:19:18 WARN  Client:782 - Could not connect to peer://93.171.161.241:6881/?  [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:19:18 WARN  Client:782 - Could not connect to peer://176.222.173.116:63946/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:19:18 WARN  Client:782 - Could not connect to peer://83.149.47.86:62379/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:19:18 WARN  Client:782 - Could not connect to peer://95.165.105.170:57713/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:19:18 WARN  Client:782 - Could not connect to peer://90.188.12.98:35433/? [Ci|Ci|0]: Connection timed out: connect.
+2017-05-24 01:19:21 INFO  Client:451 - SHARING 222/795 pieces (27,92%) [795/2] with 2/6 peers at 152,26/0,00 kB/s.
+2017-05-24 01:19:24 INFO  Client:451 - SHARING 252/795 pieces (31,70%) [795/2] with 2/6 peers at 162,85/0,00 kB/s.
+2017-05-24 01:19:27 INFO  Announce:242 - Exited announce loop.
+2017-05-24 01:19:28 INFO  HTTPTrackerClient:80 - Announcing STOPPED to tracker with 0U/4685824D/8331824L bytes...
+2017-05-24 01:19:28 WARN  SharingPeer:334 - Attempting to send a message to non-connected peer peer://128.73.14.98:42531/6B53E3 [Ci|Ci|795]!
+2017-05-24 01:19:28 WARN  Client:857 - Downloaded piece#210 from peer://93.81.185.92:48319/95CEF8 [Ci|Ci|795] was not valid ;-(
+2017-05-24 01:19:28 WARN  SharingPeer:334 - Attempting to send a message to non-connected peer peer://93.81.185.92:48319/95CEF8 [Ci|Ci|795]!
+2017-05-24 01:19:28 INFO  Client:430 - BitTorrent client signing off.
+2017-05-24 01:19:28 INFO  Controller:121 - File C:\Users\narey\Desktop\Геннадий Эсса deleted successfully
+2017-05-24 01:37:14 INFO  Controller:158 - Closing GUI
+2017-05-24 01:42:31 INFO  Controller:158 - Closing GUI
+2017-05-24 01:54:20 INFO  Controller:158 - Closing GUI

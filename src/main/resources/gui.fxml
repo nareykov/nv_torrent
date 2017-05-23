@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
 <?import java.lang.*?>
 <?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.layout.*?>
 
 <GridPane fx:id="gridPane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="300.0" minWidth="600.0" prefHeight="422.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
@@ -62,7 +65,7 @@
                     <columns>
                       <TableColumn fx:id="columnPeerIP" prefWidth="336.0" text="IP" />
                       <TableColumn fx:id="columnPeerDownload" minWidth="0.0" prefWidth="108.0" text="Download" />
-                        <TableColumn fx:id="columnPeerUpload" prefWidth="98.0" text="Upload" />
+                      <TableColumn fx:id="columnPeerUpload" prefWidth="98.0" text="Upload" />
                     </columns>
                   </TableView>
                </content>
@@ -71,8 +74,27 @@
       </TabPane>
       <ToolBar prefHeight="40.0" prefWidth="200.0">
         <items>
-          <Button fx:id="addButton" mnemonicParsing="false" onAction="#openTorrent" text="addButton" />
-            <Button fx:id="closeButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#close" text="closeButton" />
+          <Button fx:id="addButton" mnemonicParsing="false" onAction="#openTorrent" text="r">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="deleteButton" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#delete" textOverrun="CLIP">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="closeButton" mnemonicParsing="false" onAction="#close">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="26.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Отмена%20Filled-50.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
         </items>
       </ToolBar>
     </children>

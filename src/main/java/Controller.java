@@ -1,3 +1,4 @@
+import Objects.PeerRow;
 import Objects.TorrentRow;
 import com.turn.ttorrent.client.Client;
 import com.turn.ttorrent.client.SharedTorrent;
@@ -9,10 +10,13 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
+import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,61 +36,126 @@ public class Controller {
     public Label labelDirectory;
     public Label labelDowload;
     public Label labelName;
+    public TableColumn columnPeerIP;
+    public TableColumn columnPeerDownload;
+    public TableColumn columnPeerUpload;
     private FileChooser fileChooser = new FileChooser();
     private DirectoryChooser directoryChooser = new DirectoryChooser();
-    private ObservableList<TorrentRow> list;
+    private ObservableList<TorrentRow> listTorrents;
+    private ObservableList<PeerRow> listPeers;
     private int selectedIndex = -1;
+    private static final Logger log = Logger.getLogger(Controller.class);
 
     @FXML
     TableView table;
+    @FXML
+    public TableView infoTable;
 
     @FXML
     Button addButton;
-
     @FXML
     Button closeButton;
+    @FXML
+    Button deleteButton;
 
     @FXML
     TableColumn<TorrentRow, String> columnName;
-
     @FXML
     TableColumn<TorrentRow, String> columnSize;
-
     @FXML
     TableColumn<TorrentRow, ProgressBar> columnProgress;
-
     @FXML
     TableColumn<TorrentRow, String> columnLeft;
-
     @FXML
     TableColumn<TorrentRow, String> columnDownload;
-
     @FXML
     TableColumn<TorrentRow, String> columnUpload;
-
     @FXML
     GridPane gridPane;
 
     @FXML
     private void initialize() {
-        list = FXCollections.observableArrayList();
+        listTorrents = FXCollections.observableArrayList();
+        listPeers = FXCollections.observableArrayList();
 
-        columnName.setCellValueFactory(new PropertyValueFactory<TorrentRow, String>("name"));
-        columnSize.setCellValueFactory(new PropertyValueFactory<TorrentRow, String>("size"));
-        columnProgress.setCellValueFactory(new PropertyValueFactory<TorrentRow, ProgressBar>("progress"));
-        columnLeft.setCellValueFactory(new PropertyValueFactory<TorrentRow, String>("left"));
-        columnDownload.setCellValueFactory(new PropertyValueFactory<TorrentRow, String>("download"));
+        columnName.setCellValueFactory(new PropertyValueFactory<>("name"));
+        columnSize.setCellValueFactory(new PropertyValueFactory<>("size"));
+        columnProgress.setCellValueFactory(new PropertyValueFactory<>("progress"));
+        columnLeft.setCellValueFactory(new PropertyValueFactory<>("left"));
+        columnDownload.setCellValueFactory(new PropertyValueFactory<>("download"));
         columnUpload.setCellValueFactory(new PropertyValueFactory<TorrentRow, String>("upload"));
 
-        table.setItems(list);
+        columnPeerIP.setCellValueFactory(new PropertyValueFactory<PeerRow, String>("id"));
+        columnPeerDownload.setCellValueFactory(new PropertyValueFactory<PeerRow, String>("download"));
+        columnPeerUpload.setCellValueFactory(new PropertyValueFactory<PeerRow, String>("upload"));
+
+        table.setItems(listTorrents);
+        infoTable.setItems(listPeers);
+
+        addButton.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("Плюс Filled-50.png"))));
+        deleteButton.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("Отмена Filled-50.png"))));
+        closeButton.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("Выключение системы Filled-50.png"))));
     }
 
     @FXML private void rowSelected(MouseEvent e) {
         selectedIndex = table.getSelectionModel().getSelectedIndex();
+        if (selectedIndex >= 0) {
+            refreshInfo(listTorrents.get(selectedIndex));
+            log.info("Selected " + selectedIndex + " row");
+        }
     }
 
-    @FXML protected void close(ActionEvent e){
+    @FXML private void delete(ActionEvent e) {
+        if (selectedIndex >= 0) {
+            TorrentRow torrentRow = listTorrents.get(selectedIndex);
+            torrentRow.getClient().stop();
+            deleteFile(torrentRow.getDirectory() + "\\" + torrentRow.getName());
+            refreshInfo(new TorrentRow("", 0 , 0, 0, 0, 0, ""));
+            listTorrents.remove(selectedIndex);
+            listPeers.clear();
+        }
+    }
+
+    /**
+     * Функция удаления файла/папки
+     * @param path путь
+     */
+    public static void deleteFile(String path) {
+        File file = new File(path);
+        if (deleteDirectory(file)) {
+            System.out.println("File " + path + " deleted successfully");
+            log.info("File " + path + " deleted successfully");
+        } else {
+            System.out.println("File " + path + " delete error");
+            log.error("File " + path + " delete error");
+        }
+    }
+
+    /**
+     * Рекурсивная функция удаления
+     * @param directory Объект удаляемого файла/папки
+     * @return true - в случае успеха
+     */
+    public static boolean deleteDirectory(File directory) {
+        if(directory.exists()){
+            File[] files = directory.listFiles();
+            if(null!=files){
+                for(int i=0; i<files.length; i++) {
+                    if(files[i].isDirectory()) {
+                        deleteDirectory(files[i]);
+                    }
+                    else {
+                        files[i].delete();
+                    }
+                }
+            }
+        }
+        return directory.delete();
+    }
+
+    @FXML protected void close(MouseEvent e){
         System.out.println("Closing GUI");
+        log.info("Closing GUI");
         System.exit(0);
     }
 
@@ -136,7 +205,8 @@ public class Controller {
 
                 TorrentRow torrentRow = new TorrentRow(torrent.getName(), torrent.getSize(), (double) torrent.getCompletion(),
                         torrent.getLeft(), 0.0, 0.0, outDirectory.getPath());
-                list.add(torrentRow);
+                listTorrents.add(torrentRow);
+                torrentRow.setClient(client);
 
                 client.share();
                 Date beginTime = new Date();
@@ -165,11 +235,17 @@ public class Controller {
                     SimpleDateFormat format = new SimpleDateFormat("mm:ss");
                     torrentRow.setTimePassed(format.format(new Date(endTime.getTime() - beginTime.getTime())));
 
-                    if (selectedIndex >= 0 && list.get(selectedIndex).equals(torrentRow)) {
+                    if (selectedIndex >= 0 && listTorrents.get(selectedIndex).equals(torrentRow)) {
                         refreshInfo(torrentRow);
+                        listPeers.clear();
+                        for (SharingPeer peer : client.getPeers()) {
+                            if (peer.isConnected()) {
+                                listPeers.add(new PeerRow(peer.getIp(), Float.toString(dl), Float.toString(ul)));
+                            }
+                        }
                     }
 
-                    Thread.sleep(3000);
+                    Thread.sleep(1000);
                 }
                 torrentRow.setLeft("finished");
                 torrentRow.setDownload(String.format("%.2f", 0.0) + " kB/s");
@@ -179,7 +255,6 @@ public class Controller {
                 System.out.print("Waiting for completion");
             } catch (UnknownHostException uhE) {
                 System.err.println("Cannot find host.");
-                //uhE.printStackTrace();
             } catch (IOException ioE) {
                 System.err.println("Cannot find file.");
             } catch (InterruptedException e) {
