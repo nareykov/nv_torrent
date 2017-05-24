@@ -14,7 +14,6 @@ public class PeerRow {
         this.upload = upload;
     }
 
-
     public String getId() {
         return id;
     }

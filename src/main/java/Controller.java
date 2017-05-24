@@ -7,7 +7,10 @@ import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
@@ -107,7 +110,7 @@ public class Controller {
      * Функция удаления файла/папки
      * @param path путь
      */
-    public static void deleteFile(String path) {
+    private void deleteFile(String path) {
         File file = new File(path);
         if (deleteDirectory(file)) {
             System.out.println("File " + path + " deleted successfully");
@@ -123,7 +126,7 @@ public class Controller {
      * @param directory Объект удаляемого файла/папки
      * @return true - в случае успеха
      */
-    public static boolean deleteDirectory(File directory) {
+    private boolean deleteDirectory(File directory) {
         if(directory.exists()){
             File[] files = directory.listFiles();
             if(null!=files){
@@ -140,13 +143,13 @@ public class Controller {
         return directory.delete();
     }
 
-    @FXML protected void close(MouseEvent e){
+    @FXML private void close(MouseEvent e){
         System.out.println("Closing GUI");
         log.info("Closing GUI");
         System.exit(0);
     }
 
-    @FXML protected void openTorrent(MouseEvent e) {
+    @FXML private void openTorrent(MouseEvent e) {
         fileChooser.getExtensionFilters().addAll(
                 new FileChooser.ExtensionFilter("torrent Files", "*.torrent"),
                 new FileChooser.ExtensionFilter("All Files", "*")
@@ -158,12 +161,16 @@ public class Controller {
         directoryChooser.setTitle("Output Folder");
         File outDirectory = directoryChooser.showDialog(gridPane.getScene().getWindow());
 
-        ThreadManager tm = new ThreadManager(torrentFile, outDirectory);
+        NewTorrent tm = new NewTorrent(torrentFile, outDirectory);
         new Thread(tm).start();
 
     }
 
-     private void refreshInfo(TorrentRow torrentRow) {
+    /**
+     * Обновляет сорержание строки таблицы загрузок
+     * @param torrentRow новая инрормация
+     */
+    private void refreshInfo(TorrentRow torrentRow) {
          Platform.runLater(
                  () -> {
                      labelDowload.setText(torrentRow.getDownload());
@@ -176,11 +183,11 @@ public class Controller {
          );
     }
 
-    private class ThreadManager implements Runnable {
+    private class NewTorrent implements Runnable {
         File torrentFile;
         File outDirectory;
 
-        ThreadManager(File torrentFile, File outDirectory){
+        NewTorrent(File torrentFile, File outDirectory){
             this.torrentFile = torrentFile;
             this.outDirectory = outDirectory;
         }
@@ -227,11 +234,10 @@ public class Controller {
                         listPeers.clear();
                         for (SharingPeer peer : client.getPeers()) {
                             if (peer.isConnected()) {
-                                listPeers.add(new PeerRow(peer.getIp(), Float.toString(dl), Float.toString(ul)));
+                                listPeers.add(new PeerRow(peer.getIp(), Float.toString(peer.getDLRate().get()), Float.toString(peer.getULRate().get())));
                             }
                         }
                     }
-
                     Thread.sleep(1000);
                 }
                 torrentRow.setLeft("finished");

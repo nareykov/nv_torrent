@@ -38,20 +38,8 @@ public class TorrentRow {
         this.name = name;
     }
 
-    public String getSize() {
-        return size;
-    }
-
-    public void setSize(String size) {
-        this.size = size;
-    }
-
     public ProgressBar getProgress() {
         return progress;
-    }
-
-    public void setProgress(ProgressBar progress) {
-        this.progress = progress;
     }
 
     public String getLeft() {
@@ -96,10 +84,6 @@ public class TorrentRow {
 
     public String getDirectory() {
         return directory;
-    }
-
-    public void setDirectory(String directory) {
-        this.directory = directory;
     }
 
     public Client getClient() {
